@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "namespace": "studio.guidance",
-  "name": "docx",
+  "name": "documents",
   "type": "skill",
-  "display_name": "Docx",
-  "description": "Creates an editable Word document (.docx), or an OpenDocument (.odt) or Google Doc version of it, from content the conversation provides. Delegated to by `source-to-artifact` or `deck` when the format asked for is a document.",
+  "display_name": "Documents",
+  "description": "Makes or changes a text document in any format: Word (.docx), LibreOffice or OpenDocument (.odt), Google Docs, or PDF. Use whenever the person asks for a document, a report, notes, a summary, a letter or a certificate as a Word, Google Doc or PDF file, wants a Word file turned into PDF or ODT, or wants text added to a Google Doc that already exists. A quote, proposal, report or letter that a client or management will read starts with the `business-document` skill, which calls this one for Word and Google Docs. Holds the rules every tool shares (real heading and list styles, tables with a header row, descriptive links, a stated language, nothing typed to imitate formatting) and says which reference to read for the tool that makes the file: the office converter, the Google Workspace connector, or the PDF routes.",
   "license": "MIT"
 }

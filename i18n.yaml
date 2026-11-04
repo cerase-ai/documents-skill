@@ -5,5 +5,5 @@
 # can only ever hold the others. It is registry metadata: the seeder keeps it out
 # of the bundle that ships to the agent.
 it:
-  display_name: "Docx"
-  description: "Crea un documento Word (.docx) modificabile, o una sua versione OpenDocument (.odt) o Google Doc, a partire dal contenuto fornito nella conversazione. Viene richiamata da `source-to-artifact` o da `deck` quando il formato richiesto è un documento."
+  display_name: "Documenti"
+  description: "Crea o modifica un documento di testo in qualsiasi formato: Word (.docx), LibreOffice o OpenDocument (.odt), Google Docs o PDF. Da usare quando la persona chiede un documento, una relazione, degli appunti, un riepilogo, una lettera o un certificato come file Word, Google Doc o PDF, vuole trasformare un file Word in PDF o ODT, o vuole aggiungere testo a un Google Doc che esiste già. Un preventivo, una proposta, una relazione o una lettera che leggerà un cliente o la direzione parte dalla skill `business-document`, che richiama questa per Word e Google Docs. Contiene le regole comuni a tutti gli strumenti (stili reali per titoli ed elenchi, tabelle con riga di intestazione, link descrittivi, lingua dichiarata, niente di digitato per imitare la formattazione) e dice quale riferimento leggere per lo strumento che produce il file: il convertitore di documenti, il connettore Google Workspace o le vie per il PDF."
