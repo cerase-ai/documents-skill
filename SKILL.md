@@ -45,7 +45,7 @@ Read the result back with the way the reference gives, and check:
 
 - the headings, in order, are the source's, at the right levels, and the title is the title;
 - every list is a list and every table has its header row;
-- no formatting symbol is left in the text, and no placeholder such as `⟦…⟧` or `<...>`;
+- no formatting symbol is left in the text, and no slot left to fill such as `<...>`; a `⟦…⟧` placeholder you read back stands for a value the document holds in full, so it stays as it is;
 - the figures, names and dates are the source's.
 
 Fix what fails and read back again. Then tell the person in a few lines what the document contains, and what is missing and what would settle it.
